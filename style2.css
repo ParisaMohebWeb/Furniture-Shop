@@ -1,0 +1,40 @@
+@media screen and (min-width:768px) {
+
+    .vase {
+        >div {
+
+
+            /* را این اعمال نمیشه */
+            background-color: red;
+
+            >div {
+                >div {
+                    left: 0;
+                    top: 0;
+                }
+
+            }
+        }
+    }
+
+/*  را یه خطی نمیشه باید  بین برند ها یک خط قرار بگیره */
+    .borderend{
+        border-radius: 0;
+        border : 0 0 2px 0 solid black ;
+    }
+}
+
+
+
+@media screen and (min-width:992px) {
+
+    .fonts1 {
+        font-size: 100PX;
+        font-weight: bolder;
+    }
+
+    .fonts2 {
+        font-size: 50px;
+        font-weight: bold;
+    }
+}
